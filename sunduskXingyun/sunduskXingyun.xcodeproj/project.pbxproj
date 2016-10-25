@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80317EDD92FB8798462925F2 /* libPods-sunduskXingyun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5227434C06151E2A9BD789 /* libPods-sunduskXingyun.a */; };
+		C29041261DBE545200B819D9 /* CCQCircleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C29041251DBE545200B819D9 /* CCQCircleAnimator.m */; };
+		C290412F1DBE6A9300B819D9 /* CCQSportMapModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C290412E1DBE6A9300B819D9 /* CCQSportMapModeViewController.m */; };
+		C29041321DBE719800B819D9 /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C29041311DBE719800B819D9 /* DINCond-Bold.otf */; };
+		C2BEDA411DB9DAB100D072F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA401DB9DAB100D072F9 /* main.m */; };
+		C2BEDA441DB9DAB100D072F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA431DB9DAB100D072F9 /* AppDelegate.m */; };
+		C2BEDA471DB9DAB100D072F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA461DB9DAB100D072F9 /* ViewController.m */; };
+		C2BEDA4A1DB9DAB100D072F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BEDA481DB9DAB100D072F9 /* Main.storyboard */; };
+		C2BEDA4C1DB9DAB100D072F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BEDA4B1DB9DAB100D072F9 /* Assets.xcassets */; };
+		C2BEDA4F1DB9DAB100D072F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BEDA4D1DB9DAB100D072F9 /* LaunchScreen.storyboard */; };
+		C2BEDA591DBA2F5C00D072F9 /* CCQSportMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA581DBA2F5C00D072F9 /* CCQSportMainViewController.m */; };
+		C2BEDA5C1DBA37BF00D072F9 /* CCQSportSportingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA5B1DBA37BF00D072F9 /* CCQSportSportingViewController.m */; };
+		C2BEDA601DBA3B2300D072F9 /* CCQSportTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA5F1DBA3B2300D072F9 /* CCQSportTracking.m */; };
+		C2BEDA631DBA3F1500D072F9 /* CCQSportMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDA621DBA3F1500D072F9 /* CCQSportMapViewController.m */; };
+		C2D3E52C1DBF8C1900311B10 /* CCQSportGPSSignalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E52B1DBF8C1900311B10 /* CCQSportGPSSignalButton.m */; };
+		C2F5F3E91DBB898B00382DDC /* CCQSportTrackingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F3E81DBB898B00382DDC /* CCQSportTrackingLine.m */; };
+		C2F5F3EC1DBB939400382DDC /* CCQSportPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F3EB1DBB939400382DDC /* CCQSportPolyline.m */; };
+		C2F5F3F51DBCF7C500382DDC /* CCQSportSporting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F5F3F41DBCF7C500382DDC /* CCQSportSporting.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168D42C21A46DF1E8982DBFE /* Pods-sunduskXingyun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskXingyun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskXingyun/Pods-sunduskXingyun.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5227434C06151E2A9BD789 /* libPods-sunduskXingyun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunduskXingyun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5421E5C86A9496C154A6B04 /* Pods-sunduskXingyun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunduskXingyun.release.xcconfig"; path = "Pods/Target Support Files/Pods-sunduskXingyun/Pods-sunduskXingyun.release.xcconfig"; sourceTree = "<group>"; };
+		C29041241DBE545200B819D9 /* CCQCircleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQCircleAnimator.h; sourceTree = "<group>"; };
+		C29041251DBE545200B819D9 /* CCQCircleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQCircleAnimator.m; sourceTree = "<group>"; };
+		C290412D1DBE6A9300B819D9 /* CCQSportMapModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportMapModeViewController.h; sourceTree = "<group>"; };
+		C290412E1DBE6A9300B819D9 /* CCQSportMapModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportMapModeViewController.m; sourceTree = "<group>"; };
+		C29041311DBE719800B819D9 /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Bold.otf"; sourceTree = "<group>"; };
+		C2BEDA3C1DB9DAB100D072F9 /* sunduskXingyun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunduskXingyun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BEDA401DB9DAB100D072F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2BEDA421DB9DAB100D072F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2BEDA431DB9DAB100D072F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2BEDA451DB9DAB100D072F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2BEDA461DB9DAB100D072F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2BEDA491DB9DAB100D072F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2BEDA4B1DB9DAB100D072F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2BEDA4E1DB9DAB100D072F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2BEDA501DB9DAB100D072F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BEDA571DBA2F5C00D072F9 /* CCQSportMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportMainViewController.h; sourceTree = "<group>"; };
+		C2BEDA581DBA2F5C00D072F9 /* CCQSportMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportMainViewController.m; sourceTree = "<group>"; };
+		C2BEDA5A1DBA37BF00D072F9 /* CCQSportSportingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportSportingViewController.h; sourceTree = "<group>"; };
+		C2BEDA5B1DBA37BF00D072F9 /* CCQSportSportingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportSportingViewController.m; sourceTree = "<group>"; };
+		C2BEDA5E1DBA3B2300D072F9 /* CCQSportTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportTracking.h; sourceTree = "<group>"; };
+		C2BEDA5F1DBA3B2300D072F9 /* CCQSportTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportTracking.m; sourceTree = "<group>"; };
+		C2BEDA611DBA3F1500D072F9 /* CCQSportMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportMapViewController.h; sourceTree = "<group>"; };
+		C2BEDA621DBA3F1500D072F9 /* CCQSportMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportMapViewController.m; sourceTree = "<group>"; };
+		C2D3E52A1DBF8C1900311B10 /* CCQSportGPSSignalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCQSportGPSSignalButton.h; path = ../../Tools/HMAnimators/CCQSportGPSSignalButton.h; sourceTree = "<group>"; };
+		C2D3E52B1DBF8C1900311B10 /* CCQSportGPSSignalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCQSportGPSSignalButton.m; path = ../../Tools/HMAnimators/CCQSportGPSSignalButton.m; sourceTree = "<group>"; };
+		C2F5F3E71DBB898B00382DDC /* CCQSportTrackingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportTrackingLine.h; sourceTree = "<group>"; };
+		C2F5F3E81DBB898B00382DDC /* CCQSportTrackingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportTrackingLine.m; sourceTree = "<group>"; };
+		C2F5F3EA1DBB939400382DDC /* CCQSportPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQSportPolyline.h; sourceTree = "<group>"; };
+		C2F5F3EB1DBB939400382DDC /* CCQSportPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQSportPolyline.m; sourceTree = "<group>"; };
+		C2F5F3F41DBCF7C500382DDC /* CCQSportSporting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CCQSportSporting.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BEDA391DB9DAB100D072F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80317EDD92FB8798462925F2 /* libPods-sunduskXingyun.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1177E699C7A4D7891401092C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168D42C21A46DF1E8982DBFE /* Pods-sunduskXingyun.debug.xcconfig */,
+				A5421E5C86A9496C154A6B04 /* Pods-sunduskXingyun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A211C78AF255AA5BB9C341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5227434C06151E2A9BD789 /* libPods-sunduskXingyun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29041221DBE545200B819D9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C29041231DBE545200B819D9 /* CCQAnimators */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C29041231DBE545200B819D9 /* CCQAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				C29041241DBE545200B819D9 /* CCQCircleAnimator.h */,
+				C29041251DBE545200B819D9 /* CCQCircleAnimator.m */,
+			);
+			name = CCQAnimators;
+			path = HMAnimators;
+			sourceTree = "<group>";
+		};
+		C29041301DBE719800B819D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C29041311DBE719800B819D9 /* DINCond-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C2BEDA331DB9DAB100D072F9 = {
+			isa = PBXGroup;
+			children = (
+				C2BEDA3E1DB9DAB100D072F9 /* sunduskXingyun */,
+				C2BEDA3D1DB9DAB100D072F9 /* Products */,
+				1177E699C7A4D7891401092C /* Pods */,
+				4A211C78AF255AA5BB9C341E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BEDA3D1DB9DAB100D072F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEDA3C1DB9DAB100D072F9 /* sunduskXingyun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BEDA3E1DB9DAB100D072F9 /* sunduskXingyun */ = {
+			isa = PBXGroup;
+			children = (
+				C29041221DBE545200B819D9 /* Tools */,
+				C2BEDA561DBA2F2600D072F9 /* Sport */,
+				C2BEDA421DB9DAB100D072F9 /* AppDelegate.h */,
+				C2BEDA431DB9DAB100D072F9 /* AppDelegate.m */,
+				C2BEDA451DB9DAB100D072F9 /* ViewController.h */,
+				C2BEDA461DB9DAB100D072F9 /* ViewController.m */,
+				C2BEDA481DB9DAB100D072F9 /* Main.storyboard */,
+				C2BEDA4B1DB9DAB100D072F9 /* Assets.xcassets */,
+				C2BEDA4D1DB9DAB100D072F9 /* LaunchScreen.storyboard */,
+				C2BEDA501DB9DAB100D072F9 /* Info.plist */,
+				C2BEDA3F1DB9DAB100D072F9 /* Supporting Files */,
+			);
+			path = sunduskXingyun;
+			sourceTree = "<group>";
+		};
+		C2BEDA3F1DB9DAB100D072F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C29041301DBE719800B819D9 /* Fonts */,
+				C2BEDA401DB9DAB100D072F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2BEDA561DBA2F2600D072F9 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				C2F5F3ED1DBCF5C500382DDC /* views */,
+				C2BEDA5D1DBA3AEF00D072F9 /* Model */,
+				C2BEDA641DBA42A300D072F9 /* Controller */,
+				C2BEDA611DBA3F1500D072F9 /* CCQSportMapViewController.h */,
+				C2BEDA621DBA3F1500D072F9 /* CCQSportMapViewController.m */,
+				C290412D1DBE6A9300B819D9 /* CCQSportMapModeViewController.h */,
+				C290412E1DBE6A9300B819D9 /* CCQSportMapModeViewController.m */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		C2BEDA5D1DBA3AEF00D072F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEDA5E1DBA3B2300D072F9 /* CCQSportTracking.h */,
+				C2BEDA5F1DBA3B2300D072F9 /* CCQSportTracking.m */,
+				C2F5F3E71DBB898B00382DDC /* CCQSportTrackingLine.h */,
+				C2F5F3E81DBB898B00382DDC /* CCQSportTrackingLine.m */,
+				C2F5F3EA1DBB939400382DDC /* CCQSportPolyline.h */,
+				C2F5F3EB1DBB939400382DDC /* CCQSportPolyline.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2BEDA641DBA42A300D072F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEDA571DBA2F5C00D072F9 /* CCQSportMainViewController.h */,
+				C2BEDA581DBA2F5C00D072F9 /* CCQSportMainViewController.m */,
+				C2BEDA5A1DBA37BF00D072F9 /* CCQSportSportingViewController.h */,
+				C2BEDA5B1DBA37BF00D072F9 /* CCQSportSportingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C2F5F3ED1DBCF5C500382DDC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C2F5F3F41DBCF7C500382DDC /* CCQSportSporting.storyboard */,
+				C2D3E52A1DBF8C1900311B10 /* CCQSportGPSSignalButton.h */,
+				C2D3E52B1DBF8C1900311B10 /* CCQSportGPSSignalButton.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BEDA3B1DB9DAB100D072F9 /* sunduskXingyun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BEDA531DB9DAB100D072F9 /* Build configuration list for PBXNativeTarget "sunduskXingyun" */;
+			buildPhases = (
+				776B9E3DDE38A014EF803FD9 /* [CP] Check Pods Manifest.lock */,
+				C2BEDA381DB9DAB100D072F9 /* Sources */,
+				C2BEDA391DB9DAB100D072F9 /* Frameworks */,
+				C2BEDA3A1DB9DAB100D072F9 /* Resources */,
+				46756FEFFFFB7B80F65AAB09 /* [CP] Embed Pods Frameworks */,
+				596CBD74411B8AB7B556DC4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sunduskXingyun;
+			productName = sunduskXingyun;
+			productReference = C2BEDA3C1DB9DAB100D072F9 /* sunduskXingyun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BEDA341DB9DAB100D072F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCQSport;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ccq;
+				TargetAttributes = {
+					C2BEDA3B1DB9DAB100D072F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HCPQ4JRW53;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C2BEDA371DB9DAB100D072F9 /* Build configuration list for PBXProject "sunduskXingyun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2BEDA331DB9DAB100D072F9;
+			productRefGroup = C2BEDA3D1DB9DAB100D072F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BEDA3B1DB9DAB100D072F9 /* sunduskXingyun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BEDA3A1DB9DAB100D072F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BEDA4F1DB9DAB100D072F9 /* LaunchScreen.storyboard in Resources */,
+				C2BEDA4C1DB9DAB100D072F9 /* Assets.xcassets in Resources */,
+				C2BEDA4A1DB9DAB100D072F9 /* Main.storyboard in Resources */,
+				C29041321DBE719800B819D9 /* DINCond-Bold.otf in Resources */,
+				C2F5F3F51DBCF7C500382DDC /* CCQSportSporting.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46756FEFFFFB7B80F65AAB09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskXingyun/Pods-sunduskXingyun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596CBD74411B8AB7B556DC4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sunduskXingyun/Pods-sunduskXingyun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		776B9E3DDE38A014EF803FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BEDA381DB9DAB100D072F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BEDA471DB9DAB100D072F9 /* ViewController.m in Sources */,
+				C2BEDA441DB9DAB100D072F9 /* AppDelegate.m in Sources */,
+				C290412F1DBE6A9300B819D9 /* CCQSportMapModeViewController.m in Sources */,
+				C2BEDA591DBA2F5C00D072F9 /* CCQSportMainViewController.m in Sources */,
+				C29041261DBE545200B819D9 /* CCQCircleAnimator.m in Sources */,
+				C2F5F3E91DBB898B00382DDC /* CCQSportTrackingLine.m in Sources */,
+				C2BEDA601DBA3B2300D072F9 /* CCQSportTracking.m in Sources */,
+				C2BEDA411DB9DAB100D072F9 /* main.m in Sources */,
+				C2BEDA631DBA3F1500D072F9 /* CCQSportMapViewController.m in Sources */,
+				C2F5F3EC1DBB939400382DDC /* CCQSportPolyline.m in Sources */,
+				C2BEDA5C1DBA37BF00D072F9 /* CCQSportSportingViewController.m in Sources */,
+				C2D3E52C1DBF8C1900311B10 /* CCQSportGPSSignalButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2BEDA481DB9DAB100D072F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BEDA491DB9DAB100D072F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2BEDA4D1DB9DAB100D072F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BEDA4E1DB9DAB100D072F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2BEDA511DB9DAB100D072F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2BEDA521DB9DAB100D072F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BEDA541DB9DAB100D072F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168D42C21A46DF1E8982DBFE /* Pods-sunduskXingyun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HCPQ4JRW53;
+				INFOPLIST_FILE = sunduskXingyun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ccq.sundusk.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2BEDA551DB9DAB100D072F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5421E5C86A9496C154A6B04 /* Pods-sunduskXingyun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HCPQ4JRW53;
+				INFOPLIST_FILE = sunduskXingyun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ccq.sundusk.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BEDA371DB9DAB100D072F9 /* Build configuration list for PBXProject "sunduskXingyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BEDA511DB9DAB100D072F9 /* Debug */,
+				C2BEDA521DB9DAB100D072F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BEDA531DB9DAB100D072F9 /* Build configuration list for PBXNativeTarget "sunduskXingyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BEDA541DB9DAB100D072F9 /* Debug */,
+				C2BEDA551DB9DAB100D072F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BEDA341DB9DAB100D072F9 /* Project object */;
+}
